@@ -14,11 +14,11 @@ local set_hl = vim.api.nvim_set_hl
 
 local palette = {
   bg = "#0c0c0c",
-  fg = "#F2F2F2",
+  fg = "#FFFFFF",
   muted = "#303030",
   line_nr = "#848484",
-  blue = "#569CD6",
-  light_blue = "#9CDCFE",
+  blue = "#2660ff",
+  light_blue = "#268fff",
   cyan = "#4EC9B0",
   green = "#6A9955",
   yellow = "#DCDCAA",
