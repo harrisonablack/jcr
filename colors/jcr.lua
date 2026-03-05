@@ -36,7 +36,7 @@ local palette = {
 }
 
 set_hl(0, "Normal", { fg = palette.fg, bg = palette.bg }) -- Main editor text area
-set_hl(0, "NormalFloat", { fg = palette.fg, bg = palette.float_bg }) -- Floating windows (LSP hover, popups)
+set_hl(0, "NormalFloat", { fg = palette.fg, bg = palette.bg }) -- Floating windows (LSP hover, popups)
 set_hl(0, "Comment", { fg = palette.muted, italic = true })
 set_hl(0, "Constant", { fg = palette.light_blue })
 set_hl(0, "String", { fg = palette.green })
