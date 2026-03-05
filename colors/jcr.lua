@@ -16,12 +16,12 @@ local palette = {
   bg = "#0c0c0c",
   fg = "#F2F2F2",
   muted = "#1D1D1B",
-  blue = "#7aa2f7",
+  blue = "#1973C0",
   cyan = "#7dcfff",
-  green = "#9ece6a",
-  yellow = "#e0af68",
+  green = "#1DA849",
+  yellow = "#FFBD17",
   orange = "#ff9e64",
-  red = "#f7768e",
+  red = "#Ef4b3c",
   purple = "#bb9af7",
 }
 
