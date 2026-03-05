@@ -15,7 +15,7 @@ local set_hl = vim.api.nvim_set_hl
 local palette = {
   bg = "#0c0c0c",
   fg = "#F2F2F2",
-  muted = "#1D1D1B",
+  muted = "#3D3D3D",
   blue = "#1973C0",
   cyan = "#7dcfff",
   green = "#1DA849",
@@ -24,16 +24,17 @@ local palette = {
   red = "#Ef4b3c",
   purple = "#bb9af7",
 }
+-- test
 
-set_hl(0, "Normal", { fg = palette.blue, bg = palette.bg })
+set_hl(0, "Normal", { fg = palette.fg, bg = palette.bg })
 set_hl(0, "NormalFloat", { fg = palette.fg, bg = palette.bg })
 set_hl(0, "Comment", { fg = palette.muted, italic = true })
 set_hl(0, "Constant", { fg = palette.orange })
 set_hl(0, "String", { fg = palette.green })
 set_hl(0, "Identifier", { fg = palette.blue })
-set_hl(0, "Function", { fg = palette.cyan })
-set_hl(0, "Statement", { fg = palette.purple })
-set_hl(0, "Type", { fg = palette.yellow })
+set_hl(0, "Function", { fg = palette.purple })
+set_hl(0, "Statement", { fg = palette.cyan })
+set_hl(0, "Type", { fg = palette.blue })
 set_hl(0, "Special", { fg = palette.red })
 set_hl(0, "Error", { fg = palette.red, bold = true })
 set_hl(0, "Visual", { bg = "#243042" })
