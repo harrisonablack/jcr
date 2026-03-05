@@ -66,6 +66,8 @@ set_hl(0, "StatusLine", { fg = palette.fg, bg = palette.statusline }) -- Statusl
 set_hl(0, "StatusLineNC", { fg = palette.muted, bg = palette.statusline }) -- Statusline for inactive windows
 set_hl(0, "Pmenu", { fg = palette.fg, bg = palette.float_bg }) -- Completion popup menu background/text
 set_hl(0, "PmenuSel", { fg = palette.fg, bg = palette.selection }) -- Selected completion item in popup
+set_hl(0, "Directory", { fg = palette.light_blue }) -- Directory names in file explorers/listings
+set_hl(0, "OilDir", { fg = palette.light_blue }) -- oil.nvim directory entries
 set_hl(0, "CursorLine", { bg = palette.float_bg }) -- Background of current cursor line
 set_hl(0, "ColorColumn", { bg = palette.float_bg }) -- Column guide (colorcolumn)
 set_hl(0, "@parameter", { fg = palette.blue })
