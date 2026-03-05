@@ -25,7 +25,7 @@ local palette = {
   purple = "#bb9af7",
 }
 
-set_hl(0, "Normal", { fg = palette.fg, bg = palette.bg })
+set_hl(0, "Normal", { fg = palette.blue, bg = palette.bg })
 set_hl(0, "NormalFloat", { fg = palette.fg, bg = palette.bg })
 set_hl(0, "Comment", { fg = palette.muted, italic = true })
 set_hl(0, "Constant", { fg = palette.orange })
