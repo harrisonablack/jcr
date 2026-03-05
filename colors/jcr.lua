@@ -13,9 +13,9 @@ vim.g.colors_name = "jcr"
 local set_hl = vim.api.nvim_set_hl
 
 local palette = {
-  bg = "#101317",
-  fg = "#d7dde8",
-  muted = "#7f8a9e",
+  bg = "#0c0c0c",
+  fg = "#F2F2F2",
+  muted = "#1D1D1B",
   blue = "#7aa2f7",
   cyan = "#7dcfff",
   green = "#9ece6a",
