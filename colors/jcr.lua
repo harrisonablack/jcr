@@ -49,7 +49,7 @@ set_hl(0, "Function", { fg = palette.yellow })
 set_hl(0, "Statement", { fg = palette.purple })
 set_hl(0, "Conditional", { fg = palette.purple })
 set_hl(0, "Repeat", { fg = palette.purple })
-set_hl(0, "Keyword", { fg = palette.blue })
+set_hl(0, "Keyword", { fg = palette.purple })
 set_hl(0, "Type", { fg = palette.cyan })
 set_hl(0, "PreProc", { fg = palette.purple })
 set_hl(0, "Special", { fg = palette.blue })
@@ -68,3 +68,6 @@ set_hl(0, "Pmenu", { fg = palette.fg, bg = palette.float_bg }) -- Completion pop
 set_hl(0, "PmenuSel", { fg = palette.fg, bg = palette.selection }) -- Selected completion item in popup
 set_hl(0, "CursorLine", { bg = palette.float_bg }) -- Background of current cursor line
 set_hl(0, "ColorColumn", { bg = palette.float_bg }) -- Column guide (colorcolumn)
+set_hl(0, "@parameter", { fg = palette.blue })
+set_hl(0, "@variable.parameter", { fg = palette.blue })
+set_hl(0, "@lsp.type.parameter", { fg = palette.blue })
